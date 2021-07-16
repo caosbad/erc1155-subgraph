@@ -6,10 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ERC1155
-    network: mainnet
+    network: rinkeby
     source:
-      address: '0xEa2ff902dbeEECcc828757B881b343F9316752e5'
+      address: '0xC6D7EF477773540aD47bB2e9718ffe90c52978d0'
       abi: Card
+      startBlock: 8795944
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

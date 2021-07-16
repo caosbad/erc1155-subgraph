@@ -1,4 +1,4 @@
-import { TransferBatch, TransferSingle } from './types/ERC1155/ATACard'
+import { TransferBatch, TransferSingle } from './types/ERC1155/Card'
 import { Transfer, CardOwner } from './types/schema'
 import { BigInt, BigDecimal, Address, log } from '@graphprotocol/graph-ts'
 

@@ -18,6 +18,15 @@ module.exports = {
       },
       network_id: '3',
     },
+    rinkeby: {
+      provider: function() {
+        return new HDWalletProvider(
+          process.env.MNEMONIC,
+          `https://rinkeby.infura.io/v3/${process.env.RINKEBY_INFURA_API_KEY}`
+        )
+      },
+      network_id: '4',
+    },
   },
   compilers: {
     solc: {

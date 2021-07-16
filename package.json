@@ -7,7 +7,7 @@
     "create-local": "graph create quocphu/erc1155 --node http://127.0.0.1:8020",
     "codegen": "graph codegen --output-dir ./src/types",
     "build": "graph build",
-    "deploy": "graph deploy quocphu/erc1155 --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
+    "deploy": "graph deploy --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ --access-token ccbef16970d24d9c9300fe9d15dcd4cd caosbad/farmiland-subgraph-rinkeby",
     "deploy-local": "graph deploy quocphu/erc1155 --ipfs http://localhost:5001 --node http://127.0.0.1:8020"
   },
   "devDependencies": {
