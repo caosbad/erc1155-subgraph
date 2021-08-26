@@ -6,9 +6,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ERC1155
-    network: rinkeby
+    network: xdai
     source:
-      address: '0xC6D7EF477773540aD47bB2e9718ffe90c52978d0'
+      address: '0x32bF46Fd2F6b2d624E555eB9C6Ee9482092e1150'
       abi: Card
       startBlock: 8795944
     mapping:
